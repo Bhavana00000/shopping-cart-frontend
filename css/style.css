@@ -1,0 +1,14 @@
+body { font-family: Arial; margin: 0; padding: 0; text-align: center; }
+header { background-color: #4CAF50; color: white; padding: 20px; }
+.products { display: flex; justify-content: center; margin: 20px; }
+.product { border: 1px solid #ccc; margin: 10px; padding: 15px; width: 180px; }
+.product img {
+    display: block;
+    margin: 0 auto 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+button { padding: 5px 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+.cart { margin-top: 30px; }
+
