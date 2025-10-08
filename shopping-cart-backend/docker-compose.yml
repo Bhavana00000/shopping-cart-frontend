@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./shopping-cart-backend
+    container_name: shopping-cart-backend
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./shopping-cart-frontend
+    container_name: shopping-cart-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
